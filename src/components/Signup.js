@@ -5,7 +5,7 @@ import "../assets/css/login.css"
 
 
 const Signup = () => {
-  return (
+  return ( 
     <div className="signup-page login-main">
       <div className="login-bg d-flex justify-content-center">
         <div className="login-page d-flex justify-content-center align-items-center m-5">
@@ -57,7 +57,7 @@ const Signup = () => {
       </div>
     </div>
 
-  );
+   );
 }
-
+ 
 export default Signup;

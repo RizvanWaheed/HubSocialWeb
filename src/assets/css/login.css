@@ -1,21 +1,15 @@
-.login-bg,
-.signup-bg {
+.login-bg, .signup-bg{
   background-image: url(../images/login-bg-r.png);
-  background-size: cover;
-
-  min-height: 100vh;
+  background-size:cover;
+  /* width: 1920px; */
+  height: 1080px;
   background-repeat: no-repeat;
-  display: flex;
-  margin: 0px auto;
-  background-position: center;
-
+  background-position: right;
 }
 
-.form-card {
-  border-radius: 10px;
+.form-card{
+  border-radius:10px ;
 }
-
-.logg {}
 
 /* .login-intro{
   height: max-content;

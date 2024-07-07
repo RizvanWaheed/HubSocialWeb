@@ -12,14 +12,13 @@
   --main-black: #000000;
   --postBtn-text: #d1dffa;
   --red-btn: #ff1662;
-  --online-icon: #3cff66;
+  --online-icon:#3cff66;
   --online-status: #48e371;
-  --offline-status: #c8c8c8;
+  --offline-status:#c8c8c8;
   --chat-color: #707070;
-  --collab-users-bg: #f7f7f7;
+  --collab-users-bg:#f7f7f7;
   --likes-theme: #d1dffa;
   --chat-time: #dcd9d9;
-  --location-address: #8c8c8c;
   --font55: 55px;
   --font41: 41px;
   --font32: 32px;
@@ -37,12 +36,7 @@
   --font12: 12px;
   --font9: 9px;
   --font8: 8px;
-
-
-
 }
-
-
 
 @font-face {
   font-family: gontserrat-bold;
@@ -54,49 +48,49 @@
   src: url("../src/assets/fonts/Gontserrat-Regular.ttf");
 }
 
-body {
+body{
   letter-spacing: 0.5px;
 }
 
-body a {
+body a{
   text-decoration: none;
 }
 
-.hs-mt-40 {
+.hs-mt-40{
   margin-top: 40px;
 }
 
-.hs-mt-15 {
+.hs-mt-15{
   margin-top: 15px;
 }
 
-.hs-mt-10px {
+.hs-mt-10px{
   margin-top: 10px;
 }
 
-.hs-theme-26 {
-  color: var(--homePage-color);
-  font-size: var(--font26);
+.hs-theme-26{
+  color:var(--homePage-color);
+  font-size:var(--font26);
   font-family: gontserrat-bold;
   padding: 0px;
 }
 
-.hs-theme-32 {
-  color: var(--homePage-color);
-  font-size: var(--font32);
+.hs-theme-32{
+  color:var(--homePage-color);
+  font-size:var(--font32);
   font-family: gontserrat-bold;
   padding: 0px;
 }
 
-.hs-theme-chat {
+.hs-theme-chat{
   font-family: gontserrat;
   font-size: 17px;
   color: var(--chat-color);
   padding: 0px;
 }
 
-.login-main .login-bg .login-page {
-  margin: 0 100px;
+.login-main .login-bg .login-page{
+  margin: 0 20px;
 }
 
 .login-main .login-bg .login-page .login-intro .intro-h {
@@ -111,37 +105,38 @@ body a {
   color: var(--login-p);
 }
 
-.form-card {
+.form-card{
   padding: 40px 36px 30px 36px;
   background-color: var(--card-bg);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);}
+
+.all-cards .login-card{
+  margin-top: -35px;
 }
 
-.all-cards .login-card {}
-
-.all-cards .signup-card {
+.all-cards .signup-card{
   margin-top: -25px;
 }
 
-.all-cards .forgot-card {
+.all-cards .forgot-card{
   width: 674px;
   height: 408px;
   margin: 250px auto;
 }
 
-.all-cards .forgot2-card {
+.all-cards .forgot2-card{
   width: 674px;
   height: 628px;
   margin: 250px auto;
 }
 
-.all-cards .reset-card {
+.all-cards .reset-card{
   width: 674px;
   height: 732px;
   margin: 250px auto;
 }
 
-.all-cards .completeProf-card {
+.all-cards .completeProf-card{
   width: 674px;
   height: 788px;
   margin: 250px auto;
@@ -171,11 +166,11 @@ body a {
   color: var(--text-muted);
 }
 
-.all-cards .form-card .check-box {
+.all-cards .form-card .check-box{
   margin-top: 25px;
 }
 
-.all-cards .form-card .check-box .input-checkbox {
+.all-cards .form-card .check-box .input-checkbox{
   border: 2px solid var(--outline-color);
 }
 
@@ -186,7 +181,7 @@ body a {
   color: var(--text-muted);
 }
 
-.all-cards .form-card .forgotPass {
+.all-cards .form-card .forgotPass{
   font-family: gontserrat;
   font-size: var(--font15);
   color: var(--outline-color);
@@ -201,13 +196,13 @@ body a {
   margin-top: 20px;
 }
 
-.all-cards .form-card .third-party {
+.all-cards .form-card .third-party{
   flex-direction: column;
   margin: 30px 0px 5px 0px;
 }
 
 
-.all-cards .form-card .third-party p {
+.all-cards .form-card .third-party p{
   position: relative;
   text-align: center;
   top: -25px;
@@ -215,73 +210,73 @@ body a {
   margin: 0 auto;
   padding: 0px 35px;
   color: var(--text-muted);
-  font-family: gontserrat;
+  font-family: gontserrat ;
   font-size: var(--font15);
 }
 
-.all-cards .form-card .third-party hr {
+.all-cards .form-card .third-party hr{
   color: var(--text-muted);
 }
 
-.all-cards .form-card .card-icons {
+.all-cards .form-card .card-icons{
   margin-top: 8px;
 }
 
-.all-cards .form-card .card-icons .google {
+.all-cards .form-card .card-icons .google{
   margin: 0px -85px;
 }
 
-.all-cards .form-card .not-member {
+.all-cards .form-card .not-member{
   margin-top: 35px;
-  font-family: gontserrat;
+  font-family: gontserrat ;
   font-size: var(--font15);
   color: var(--text-muted);
 }
 
-.all-cards .form-card .not-member a {
+.all-cards .form-card .not-member a{
   margin-left: 5px;
   text-decoration: none;
-  font-family: gontserrat-bold;
+  font-family: gontserrat-bold ;
   font-size: var(--font15);
   color: #ff1662;
 }
 
-.login-main .forgotPass-navbar {
+.login-main .forgotPass-navbar{
   height: 150px;
   padding: 20px 0px;
 }
 
-.login-main .forgotPass-navbar .forgot-back span {
+.login-main .forgotPass-navbar .forgot-back span{
   margin-left: 15px;
-  font-family: gontserrat;
-  font-size: var(--font22);
+  font-family: gontserrat ;
+  font-size: var(--font22) ;
   color: var(--main-black);
 }
 
-.all-cards .form-card .card-head .btn-bg {
+.all-cards .form-card .card-head .btn-bg{
   background-color: var(--btn-bg);
   border-radius: 10px;
   padding: 5px 22px 10px;
 }
 
-.all-cards .form-card .card-head span:nth-child(2) {
+.all-cards .form-card .card-head span:nth-child(2){
   margin-left: 15px;
 }
 
-.all-cards .form-card .forgotUser {
+.all-cards .form-card .forgotUser{
   margin-top: 60px;
 }
 
-.all-cards .form-card .forgotUser .forgotUser-info {
+.all-cards .form-card .forgotUser .forgotUser-info{
   margin-left: 25px;
   margin-top: 20px;
 }
 
-.all-cards .form-card .forgotUser .forgotUser-info .counter-block {
+.all-cards .form-card .forgotUser .forgotUser-info .counter-block{
   margin-left: -40px;
 }
 
-.all-cards .form-card .forgotUser .img-counter {
+.all-cards .form-card .forgotUser .img-counter{
   position: relative;
   background-color: var(--login-theme);
   width: 40px;
@@ -289,98 +284,92 @@ body a {
   border-radius: 20px;
   top: 40px;
   color: #ffffff;
-  font-family: gontserrat;
+  font-family: gontserrat ;
   font-size: var(--font25);
   text-align: center;
 }
 
-.all-cards .form-card .forgotUser .forgotUser-info .likes {
+.all-cards .form-card .forgotUser .forgotUser-info .likes{
   border-right: 1px solid grey;
 }
 
-.all-cards .form-card .forgotUser .forgotUser-info h4 {
-  font-family: gontserrat-bold;
-  font-size: var(--font24);
+.all-cards .form-card .forgotUser .forgotUser-info h4{
+  font-family: gontserrat-bold ;
+  font-size: var(--font24) ;
   color: var(--main-black);
 }
 
-.all-cards .form-card .forgotUser .forgotUser-info p {
+.all-cards .form-card .forgotUser .forgotUser-info p{
   font-family: gontserrat;
   font-size: var(--font14);
   color: var(--text-muted);
 }
 
-.all-cards .input-code .form-input {
-  background-color: var(--btn-bg);
+.all-cards .input-code .form-input{
+  background-color: var(--btn-bg) ;
   border: none;
   width: 67px;
   height: 82px;
 }
 
-.all-cards .form-card .tab-btns {
+.all-cards .form-card .tab-btns{
   margin-top: 30px;
 }
 
-.all-cards .form-card .tab-btns .tab-btn {
+.all-cards .form-card .tab-btns .tab-btn{
   background-color: var(--card-bg);
   border: none;
   border-bottom: 2px solid var(--login-theme);
 }
 
-.all-cards .completeProf-card .cpform-input {
+.all-cards .completeProf-card .cpform-input{
   height: 52px;
   border: 1px solid var(--outline-color);
   padding: 18px;
 
 }
 
-.homepage .home-navbar {
-  padding: 20px 0px;
+.homepage .home-navbar{
+  margin-top: 48px;
   align-items: center;
 }
 
-.homepage .home-navbar .burger-icon {
+.homepage .home-navbar .burger-icon{
   text-align: center;
   padding-right: 50px;
 }
 
-.homepage .home-navbar .bell-icon {
+.homepage .home-navbar .bell-icon{
   text-align: center;
 }
 
-.homepage .home-navbar .navbar-profile,
-.homepage .home-navbar .navbar-profile img {
-  width: 55px;
-  height: 55px;
+.homepage .home-navbar .navbar-profile, 
+  .homepage .home-navbar .navbar-profile img{
+   width: 55px;
+   height: 55px;
 }
 
-.homepage .home-navbar .home-search .search-bar {
+.homepage .home-navbar .home-search .search-bar{
   background-color: var(--search-bar);
   border: none;
   border-radius: 10px 10px 10px 10px;
   height: 55px;
 }
 
-.homepage .main-content,
-.homepage .main-content .row {
-  margin: 0px !important
-}
-
-
-.homepage .main-content .left-sidebar {
+.homepage .main-content .left-sidebar{
   text-align: center;
-
-  width: 7%;
+  margin-top: 15px;
+  width: 122px;
   padding: 30px;
 }
 
-.homepage .main-content .sidebar-icon span {
-  background-color: var(--search-bar);
+.homepage .main-content .sidebar-icon span{
+  background-color:var(--search-bar);
   border-radius: 10px;
-  padding: 15px 18px 18px;
+  padding: 15px 18px 18px; 
 }
 
-.homepage .home-navbar .search-icon {
+.homepage .home-navbar .search-icon{
   background-color: var(--search-bar);
   border: none;
   height: 50px;
@@ -389,127 +378,94 @@ body a {
   top: 2px;
 }
 
-.homepage .home-navbar .search-icon:hover {
+.homepage .home-navbar .search-icon:hover{
   background-color: transparent;
 }
 
-.homepage .main-content .content-bg {
+.homepage .main-content .content-bg{
   background-color: var(--main-page-bg);
-  padding: 25px 25px 0px 25px;
-  width: 86%;
-  justify-content: center;
+  padding: 35px 25px 0px 25px;
+  margin-top: 20px;
 }
 
-.homepage .main-content .content {
-  /* margin: 4px 0px 0px 8px; */
-  padding: 20px;
-  gap: 20px
+.homepage .main-content .content{
+  margin: 4px 0px 0px 8px;
 }
 
-.homepage .main-content .content-bg .new-post {
+.homepage .main-content .content-bg .new-post{
   background-color: var(--card-bg);
   padding: 30px;
   border-radius: 10px;
 }
 
-.homepage .content .new-post .new-post-img {
-  width: 10%;
-}
-
-.homepage .content .new-post .new-post-input {
-  width: 90%;
-}
-
 .homepage .content .new-post .new-post-img,
-.homepage .content .new-post .new-post-img img {
+.homepage .content .new-post .new-post-img img{
   height: 90px;
-
+  width: 90px;
   padding: 0px;
   border-radius: 50%;
 }
 
-.homepage .content .new-post .new-post-btns {
+.homepage .content .new-post .new-post-btns{
   text-align: right;
-
 }
 
-.homepage .main-content .post-input {
+.homepage .main-content .post-input{
   height: 73px;
   margin-left: 15px;
   border-radius: 10px;
 }
 
-.homepage .main-content .post-input::placeholder {
+.homepage .main-content .post-input::placeholder{
   padding: 5px;
   color: var(--text-muted);
 }
 
-.main-content .content-bg .new-post-btns .new-post-btn {
+.main-content .content-bg .new-post-btns .new-post-btn{
   background-color: var(--login-theme);
   border: none;
   margin-right: 10px;
-  min-height: 51px;
-
-  min-width: fit-content;
-  align-items: center;
-  display: inline-flex;
-
+  height: 51px;
 }
 
-.main-content .content-bg .new-post-btns span {
+.main-content .content-bg .new-post-btns span{
   margin-left: 5px;
   font-family: gontserrat;
   font-size: var(--font19);
   color: var(--postBtn-text);
 }
 
-.main-content .content-bg .post-header {}
+.main-content .content-bg .post-header{
+  margin: 40px 0px 0px 0px; 
+}
 
-.main-content .content-bg .post-header span {
+.main-content .content-bg .post-header span{
   margin: 0px 10px 0px 10px
 }
 
 
-.homepage .main-content .content .posts {
+.homepage .main-content .content .posts{
   background-color: var(--card-bg);
-  padding: 0px;
+  padding: 20px;
   border-radius: 10px;
   margin-top: 30px;
 }
 
-.homepage .main-content .content .posts .post-box {
-  padding: 25px;
-  border-bottom: 1px solid #cfd7ea;
-  margin: 10px;
-
+.homepage .main-content .content .posts .post-footer{
+ margin-top: 25px; 
 }
 
-.homepage .main-content .content .posts .post-image {
-  max-height: 470px;
-}
-
-.homepage .main-content .content .posts .post-footer {
-  margin-top: 25px;
-}
-
-.homepage .main-content .content .posts .post-footer .post-likes span {
+.homepage .main-content .content .posts .post-footer .post-likes span{
   margin-left: 10px;
-  font-size: var(--font23);
+  font-size:var(--font23) ;
   color: var(--likes-theme);
 }
 
-.homepage .main-content .content .posts .post-footer .tags a {
-  color: var(--chat-color);
+.homepage .main-content .content .posts .post-footer .tags a{
+  color: var(--likes-theme);
 }
 
-.homepage .main-content .activities {
-  padding: 20px;
-  gap: 20px;
-  display: flex;
-  flex-direction: column;
-}
-
-.homepage .main-content .activities .activities-card {
+.homepage .main-content .activities .activities-card{
   background-color: var(--card-bg);
   padding: 30px;
   border-radius: 10px;
@@ -517,30 +473,25 @@ body a {
 }
 
 .homepage .main-content .activities .activities-card .req-img,
-.homepage .main-content .activities .activities-card .req-img img {
+.homepage .main-content .activities .activities-card .req-img img{
   height: 56px;
   width: 56px;
 }
 
-.homepage .main-content .activities .activities-card .requests .counter {
+.homepage .main-content .activities .activities-card .requests .counter{
   position: relative;
   background-color: var(--login-theme);
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  top: 15px;
+  top: 20%;
   color: #ffffff;
-  font-family: gontserrat;
+  font-family: gontserrat ;
   font-size: var(--font9);
   text-align: center;
 }
 
-.activities .activities-card .requests {
-  align-items: center;
-
-}
-
-.homepage .main-content .activities .location-card .location-user .counter {
+.homepage .main-content .activities .location-card .location-user .counter{
   position: relative;
   background-color: var(--login-theme);
   width: 15px;
@@ -548,12 +499,12 @@ body a {
   border-radius: 50%;
   top: 25px;
   color: #ffffff;
-  font-family: gontserrat;
+  font-family: gontserrat ;
   font-size: var(--font9);
   text-align: center;
 }
 
-.activities .activities-card .requests .act-btns button {
+.activities .activities-card .requests .act-btns button{
   background-color: var(--login-theme);
   margin: 5px;
   height: 31px;
@@ -563,7 +514,7 @@ body a {
   color: var(--card-bg);
 }
 
-.activities .activities-card .requests .act-btns button:nth-child(2) {
+.activities .activities-card .requests .act-btns button:nth-child(2){
   background-color: var(--red-btn);
   margin: 5px;
   height: 31px;
@@ -573,73 +524,69 @@ body a {
   color: var(--card-bg);
 }
 
-.homepage .main-content .right-sidebar {
-  width: 7%;
+.homepage .main-content .right-sidebar{
+  width: 136px;
 }
 
 
 .homepage .main-content .right-sidebar .sidebar-users,
-.homepage .main-content .right-sidebar .sidebar-users img {
+.homepage .main-content .right-sidebar .sidebar-users img{
   height: 82px;
   width: 82px;
   border-radius: 50%;
 }
-
-.homepage .main-content .right-sidebar .sidebar-users .online-icon {
+.homepage .main-content .right-sidebar .sidebar-users .online-icon{
   height: 22px;
   width: 22px;
   border-radius: 50%;
-  background-color: var(--online-icon);
+  background-color:var(--online-icon) ;
   position: relative;
   left: 55px;
   bottom: 25px;
 }
 
-.homepage .main-content .activities .location-card {
+.homepage .main-content .activities .location-card{
   border-radius: 15px;
   background-color: var(--card-bg);
   padding-bottom: 15px;
-
+  margin-top: 15px;
 }
 
-.homepage .main-content .activities .location-card .location-img img {
+.homepage .main-content .activities .location-card .location-img img{
   width: 100%;
 }
 
 
-.homepage .main-content .activities .location-card .location-user {
+.homepage .main-content .activities .location-card .location-user{
   position: relative;
   right: 35px;
   top: -35px;
 }
 
-.homepage .main-content .activities .location-card .card-footer {
+.homepage .main-content .activities .location-card .card-footer{
   margin-left: 20px;
   margin-top: 15px;
 }
 
-.homepage .main-content .activities .location-card .card-footer .footer-h {
+.homepage .main-content .activities .location-card .card-footer .footer-h{
   margin-top: 10px;
-  font-size: 26px;
-  font-weight: bold !important;
 }
 
-.homepage .main-content .activities .location-card .card-footer .address span {
+.homepage .main-content .activities .location-card .card-footer .address span{
   margin-left: 15px;
   font-family: gontserrat;
   font-size: var(--font14);
-  color: var(--location-address);
-
+  color: var(--offline-status);
 }
 
-.main-content .collab {
-  background-color: var(--card-bg);
+.main-content .collab{
+  background-color:var(--card-bg);
   padding: 15px 25px;
   border-radius: 15px 0px 0px 0px;
   margin-right: 5px;
 }
 
-.main-content .content-bg .collab-search .search-bar {
+.main-content .content-bg .collab-search .search-bar{
   background-color: var(--search-bar);
   border: none;
   border-radius: 10px 10px 10px 10px;
@@ -654,38 +601,38 @@ body a {
 } */
 
 
-.main-content .content-bg .collab-tabs a {
+.main-content .content-bg .collab-tabs a{
   text-align: center;
   border-bottom: 3px solid var(--homePage-color);
   margin-top: 20px;
   font-family: gontserrat;
 }
 
-.main-content .content-bg .collab-tabs a:nth-child(2) {
+.main-content .content-bg .collab-tabs a:nth-child(2){
   border-bottom: 2px solid var(--text-muted);
   color: var(--text-muted);
 }
 
-.main-content .content-bg .collab-newchat {
+.main-content .content-bg .collab-newchat{
   text-align: center;
   align-items: center;
   margin-top: 10px;
   height: 68px;
   border: 2px dashed var(--homePage-color);
-  background-color: #d1dffa;
-  border-radius: 10px;
+  background-color:#d1dffa;
+  border-radius: 10px; 
   margin-top: 25px;
   margin-bottom: 15px;
 }
 
-.main-content .content-bg .collab-newchat p {
+.main-content .content-bg .collab-newchat p{
   color: #a9c7ff;
   font-family: gontserrat;
   font-size: var(--font19);
-
+  
 }
 
-.main-content .content-bg .collab-users-info {
+.main-content .content-bg .collab-users-info{
   background-color: var(--collab-users-bg);
   margin-top: 18px;
   border-radius: 12px;
@@ -693,12 +640,12 @@ body a {
 }
 
 .main-content .content-bg .collab-users .collab-user-image,
-.main-content .content-bg .collab-users .collab-user-image img {
+.main-content .content-bg .collab-users .collab-user-image img{
   height: 56px;
   width: 56px;
 }
 
-.main-content .content-bg .collab-users .collab-user-img .counter {
+.main-content .content-bg .collab-users .collab-user-img .counter{
   position: relative;
   background-color: var(--login-theme);
   width: 15px;
@@ -706,94 +653,94 @@ body a {
   border-radius: 50%;
   top: 20px;
   color: #ffffff;
-  font-family: gontserrat;
+  font-family: gontserrat ;
   font-size: var(--font9);
   text-align: center;
 }
 
-.main-content .content-bg .collab-users .collab-user-name {
+.main-content .content-bg .collab-users .collab-user-name{
   margin-left: 10px;
 }
 
-.main-content .content-bg .collab-users .collab-username {
+.main-content .content-bg .collab-users .collab-username{
   font-family: gontserrat-bold;
-  font-size: var(--font13);
+  font-size:var(--font13);
   color: var(--homePage-color);
   margin: 10px 0px 5px 0px;
 }
 
-.main-content .content-bg .collab-users .collab-userinfo {
+.main-content .content-bg .collab-users .collab-userinfo{
   font-family: gontserrat;
   font-size: var(--font9);
   color: var(--text-muted);
   padding-right: 46px;
 }
 
-.main-content .content-bg .collab-users .collab-user-online {
+.main-content .content-bg .collab-users .collab-user-online{
   font-family: gontserrat;
   font-size: var(--font8);
   color: var(--online-status);
   margin: 12px 8px;
 }
 
-.main-content .content-bg .collab-users .collab-user-offline {
+.main-content .content-bg .collab-users .collab-user-offline{
   font-family: gontserrat;
   font-size: var(--font8);
-  color: var(--offline-status);
+  color:var(--offline-status);
   margin: 12px 8px;
 }
 
-.main-content .content-bg .collab-chat {
+.main-content .content-bg .collab-chat{
   background-color: var(--card-bg);
   padding: 10px 8px 0px 8px;
   border-radius: 0px 12px 0px 0px;
 }
 
-.main-content .content-bg .collab-chat .chat-header {
+.main-content .content-bg .collab-chat .chat-header{
   margin-top: 25px;
 }
 
-.main-content .content-bg .collab-chat .header-user-info {
+.main-content .content-bg .collab-chat .header-user-info{
   margin-left: 10px;
   align-items: center;
 }
 
 .main-content .content-bg .collab-chat .header-user-info .header-img,
-.main-content .content-bg .collab-chat .header-user-info .header-img img {
+.main-content .content-bg .collab-chat .header-user-info .header-img img{
   height: 56px;
   width: 56px;
   margin-left: 12px;
 }
 
-.main-content .content-bg .collab-chat .header-user-info .header-name {
+.main-content .content-bg .collab-chat .header-user-info .header-name{
   font-family: gontserrat-bold;
-  font-size: var(--font19);
-  color: var(--homePage-color);
+  font-size:var(--font19);
+  color:var(--homePage-color);
   margin-left: 25px;
 }
 
-.main-content .content-bg .collab-chat .header-icons {
+.main-content .content-bg .collab-chat .header-icons{
   align-items: center;
   justify-content: end;
 }
 
-.main-content .content-bg .collab-chat .header-icons .icon {
+.main-content .content-bg .collab-chat .header-icons .icon{
   margin-right: 35px;
 
 }
 
-.main-content .content-bg .collab-chat .chat-box .collab-user-pic,
-.main-content .content-bg .collab-chat .chat-box .collab-chat-pic img {
+.main-content .content-bg .collab-chat .chat-box  .collab-user-pic,
+.main-content .content-bg .collab-chat .chat-box .collab-chat-pic img{
   height: 82px;
   width: 82px;
   margin-left: 25px;
 }
 
-.main-content .content-bg .collab-chat .chat-box .chat-messages {
+.main-content .content-bg .collab-chat .chat-box .chat-messages{
   margin-top: 30px;
 }
 
-.main-content .content-bg .collab-chat .chat-box .collab-chat-popup {
+.main-content .content-bg .collab-chat .chat-box .collab-chat-popup{
   margin-top: 15px;
   margin-left: 25px;
   background-color: var(--collab-users-bg);
@@ -801,7 +748,7 @@ body a {
   border-radius: 10px;
 }
 
-.main-content .content-bg .collab-chat .chat-box .my-message-popup {
+.main-content .content-bg .collab-chat .chat-box .my-message-popup{
   background-color: var(--login-theme);
   margin-top: 15px;
   margin-right: 25px;
@@ -809,7 +756,7 @@ body a {
   border-radius: 10px;
 }
 
-.main-content .content-bg .collab-chat .chat-box .chat-messages .counter {
+.main-content .content-bg .collab-chat .chat-box .chat-messages .counter{
   position: relative;
   background-color: var(--login-theme);
   width: 18px;
@@ -818,255 +765,65 @@ body a {
   top: 20px;
   left: 25px;
   color: #ffffff;
-  font-family: gontserrat;
+  font-family: gontserrat ;
   font-size: var(--font9);
-  text-align: center;
+  text-align: center; 
 }
 
-.main-content .content-bg .collab-chat .chat-box .chat-messages .chat-msg {
+.main-content .content-bg .collab-chat .chat-box .chat-messages .chat-msg{
   font-family: gontserrat;
   font-size: var(--font16);
   color: var(--chat-color);
 }
 
-.main-content .content-bg .collab-chat .chat-box .chat-messages .time-stamp {
+.main-content .content-bg .collab-chat .chat-box .chat-messages .time-stamp{
   font-family: gontserrat;
   font-size: var(--font12);
-  color: var(--chat-time);
+  color:var(--chat-time);
 }
 
-.main-content .content-bg .collab-chat .chat-box .chat-messages .my-chat-msg {
+.main-content .content-bg .collab-chat .chat-box .chat-messages .my-chat-msg{
   font-family: gontserrat;
   font-size: var(--font16);
   color: var(--card-bg);
 }
 
-.main-content .content-bg .collab-chat .chat-box .chat-messages .message-seen span {
+.main-content .content-bg .collab-chat .chat-box .chat-messages .message-seen span{
   font-family: gontserrat;
   font-size: var(--font12);
   color: var(--card-bg);
   margin: 0px 10px;
 }
 
-.main-content .content-bg .collab-chat .chat-footer {
+.main-content .content-bg .collab-chat .chat-footer{
   background-color: var(--card-bg);
   box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.3);
   border-radius: 15px 15px 0px 0px;
   padding-bottom: 15px;
 }
 
-.main-content .content-bg .collab-chat .chat-footer .search-bar {
+.main-content .content-bg .collab-chat .chat-footer .search-bar{
   background-color: var(--search-bar);
   height: 63px;
   border: none;
   margin-left: 15px;
 }
 
-.main-content .content-bg .collab-chat .chat-footer .send-pic {
-  position: relative;
+.main-content .content-bg .collab-chat .chat-footer .send-pic{
+  position:relative;
   top: 50px;
   left: 32px;
 }
 
-.main-content .content-bg .collab-chat .chat-footer .footer-send {
+.main-content .content-bg .collab-chat .chat-footer .footer-send{
   margin-top: 58px;
   text-align: center;
 }
 
-.main-content .content-bg .collab-chat .chat-footer .footer-send span {
-  background-color: var(--search-bar);
+.main-content .content-bg .collab-chat .chat-footer .footer-send span{
+  background-color:var(--search-bar);
   padding: 20px;
   border-radius: 12px;
 }
 
-.req-info {
-  font-size: 16px;
-  color: #bfbfbf;
-  padding: 5px !important;
-}
 
-.req-image-div {
-  padding: 0px !important;
-}
-
-.post-text {
-  color: var(--chat-color);
-  font-size: var(--font18);
-  line-height: 20px;
-  margin-top: 30px;
-}
-
-.post-username {
-
-  color: #000000;
-  font-weight: bold;
-
-}
-
-.post-comments {
-  font-size: var(--font24);
-  font-weight: bold;
-  padding: 25px 35px;
-}
-
-.post-comments .comments-number {
-  color: var(--chat-color);
-  font-weight: normal;
-  margin-left: 20px;
-}
-
-.post-comments .comments-inputbox {
-  margin-top: 20px;
-}
-
-.post-comments .comments-input {
-  background-color: var(--search-bar);
-  border: transparent;
-  border-radius: 5px;
-  height: 63px;
-
-}
-
-.post-comments .comments-inputbox .input-icon {
-  position: relative;
-}
-
-.post-comments .comments-input .input-right-icon {
-  margin-left: 50px;
-}
-
-@media screen and (max-width:1300px) {
-  .homepage .main-content .content-bg {
-    flex-direction: column;
-    width: 76%;
-  }
-
-  .homepage .main-content .content-bg .content,
-  .homepage .main-content .content-bg .activities {
-    width: 100%;
-  }
-
-  .homepage .main-content .left-sidebar,
-  .homepage .main-content .right-sidebar {
-
-    width: 12%;
-
-  }
-
-  .home-search {
-    display: none;
-  }
-
-  .homepage .home-navbar {
-    justify-content: space-around;
-  }
-
-
-}
-
-@media screen and (min-width:1300px) and (max-width:1500px) {
-
-  .homepage .main-content .activities .activities-card .req-image-div {
-    width: 30%;
-  }
-
-  .homepage .main-content .activities .activities-card .req-info {
-    width: 70%;
-
-  }
-
-  .homepage .main-content .activities .activities-card .act-btns {
-    padding-left: 0px;
-    padding-top: 10px;
-
-  }
-}
-
-@media screen and (max-width:780px) {
-
-  .left-sidebar,
-  .right-sidebar {
-    display: none;
-  }
-
-  .content-bg {
-    width: 100% !important;
-  }
-
-  .new-post-img>img {
-    width: 40px !important;
-    height: 40px !important;
-  }
-
-  .new-post-input>input {
-    height: 50px !important;
-  }
-
-  .main-content .content-bg .new-post-btns {
-    display: contents;
-
-  }
-
-  .main-content .content-bg .new-post-btns .new-post-btn {
-    min-height: 35px;
-    min-width: 43%;
-
-    margin-bottom: 5px
-  }
-
-  .main-content .content-bg .new-post-btns span {
-    font-size: var(--p-font-size-9);
-  }
-
-  .main-content .content-bg .new-post-btns svg path {
-    width: 10px;
-    height: 10px;
-  }
-
-  .homepage .main-content .content .posts .post-footer {
-    flex-direction: column;
-  }
-
-  .login-main .login-bg .login-page {
-    margin: 0px 20px;
-    padding: 50px 0px;
-  }
-
-  .all-cards .form-card .card-icons .google {
-    margin: 0px;
-  }
-
-  .login-main .login-bg .login-page .login-intro .intro-h {
-    font-size: var(--font22);
-  }
-
-  .login-main .login-bg .login-page .login-intro .intro-p {
-    font-size: var(--font14);
-    padding-bottom: 50px;
-  }
-
-  .login-intro .pb-1>svg {
-    width: 100px;
-  }
-}
-
-@media screen and (max-width:500px) {
-  .homepage .main-content .activities .activities-card .req-image-div {
-    width: 30%;
-  }
-
-  .homepage .main-content .activities .activities-card .req-info {
-    width: 70%;
-
-  }
-
-  .homepage .main-content .activities .activities-card .act-btns {
-    padding-left: 0px;
-    padding-top: 10px;
-
-  }
-
-  .homepage .home-navbar .search-icon {
-    display: none;
-  }
-}
